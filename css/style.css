@@ -10,3 +10,48 @@
     margin: 5px;
   }
   
+
+  @font-face {
+    font-family: 'Rosela';
+    src: url('../font/rosela_4/Rosela.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: '1';
+    src: url('../font/moora_light/MOORA\ LIGHT\ REGULER.otf') format('truetype');
+  }
+  @font-face {
+    font-family: '2';
+    src: url('../font/rosela_4/lovely_balloon/Lovely\ Balloon.ttf') format('truetype');
+  }
+
+  
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Rosela', sans-serif!important;
+	font-weight: bolder!important;
+	background-image: url('../fondo.webp');
+	background-size: cover;
+}
+
+.row img{
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(89,88,89,1);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(89,88,89,1);
+  box-shadow: 1px 2px 5px 0px rgba(89,88,89,1);
+}
+
+h1{
+  font-family: '2', sans-serif!important;
+  color: #b5976b;
+}
+
+h2{
+  font-family: '1', sans-serif!important;
+  color: #b5976b;
+  font-weight: bolder;
+}

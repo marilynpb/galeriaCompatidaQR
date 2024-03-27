@@ -1,3 +1,3 @@
 const contenedorQR = document.getElementById('contenedorQR');
 
-new QRCode(contenedorQR, 'https://galeriadefotos-15nahiara.netlify.app')
+new QRCode(contenedorQR, 'https://galeria-fiesta-nahiara.onrender.com/')
